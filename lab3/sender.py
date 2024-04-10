@@ -14,7 +14,6 @@ def sendKernelImg(s, f):
         while byte:
             tty.write(byte)
             byte = fp.read(1)
-            time.sleep(0.0001)
 
 if __name__ == '__main__':
     s = 'COM7'
